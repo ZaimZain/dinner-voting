@@ -1,4 +1,3 @@
-import React from "react";
 import type { Restaurant, VoteEntry } from "../types";
 
 export default function VotingResults({

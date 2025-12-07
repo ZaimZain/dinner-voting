@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { Restaurant, VoteEntry } from "../types";
+import type { Restaurant, VoteEntry } from "../types";
 import ImageCarousel from "./ImageCarousel";
 
 export default function VotingForm({
