@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function ImageCarousel({ images = [], alt = "" }: { images?: string[]; alt?: string }) {
   const [i, setI] = useState(0);
